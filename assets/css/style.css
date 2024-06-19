@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    font-family: Tahoma;
+}
+.main{
+    width: 800;
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+}
+.main h1{
+    text-align: center;
+}
+.main .menu{
+    text-align: center;
+}
+.main .menu ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.menu ul li a{
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#e0aaff;
+}
+.menu ul li a:hover{
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color:gray;
+    border-radius: 5px;
+}
+.list table{
+    border-collapse: collapse;
+    width: 100px;
+}
+list th,td{
+    text-align: left;
+    padding: 8px;
+}
+.list tr:nth-last-child(even){background-color: #f2f2f2;}
+.list th{
+    background-color:#e0aaff;
+    color: white;
+}
+.list table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.list th , td{
+    text-align: center;
+    padding: 8px;
+}
+.list tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.list th{
+    background-color:#e0aaff;
+    color: white;
+}
+.list table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.list th,td{
+
+    text-align: center;
+    padding: 8px;
+}
+.list tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.list th{
+    background-color:#e0aaff;
+    color: white;
+}
+
+
+

@@ -1,0 +1,37 @@
+body{
+}
+a{
+  text-decoration: none;
+}
+.btn-login{
+width: 50%;
+border: 1px solid $main-color;
+color: black;
+}
+.btn-login:hover{
+  background-color: $main-color !important;
+  color:white !important;
+}
+
+.btn-reset{
+
+  width: 50%;
+   border: 1px solid $second-color;
+  color: black;
+
+}
+.btn-reset:hover{
+  background-color: $second-color !important;
+  color: white !important;
+  
+}
+.box-right{
+  margin: 40px;
+}
+.form-control{
+ background-color:rgb(247, 245, 245);
+ border-radius: 80px;;
+}
+.form-control:focus{
+  background-color: rgb(221, 206, 221);
+}

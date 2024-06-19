@@ -1,0 +1,33 @@
+
+.bottom-slider{
+    position: absolute;
+    bottom: 0px;
+   
+
+}
+.carousel{
+    position: relative;
+}
+.carousel-control-prev{
+    position: absolute;
+    left:1px;
+    .carousel-control-prev-icon{
+        position: absolute;
+        left:20px;
+        background-color: $main-color;
+        text-align: center;
+        border-radius: 50%;
+    }
+   
+}
+.carousel-control-next{
+    position: absolute;
+    right:1px;
+   .carousel-control-next-icon{
+    position: absolute;
+    right:20px;
+    background-color: $main-color;
+    text-align: center;
+    border-radius: 50%;
+   }
+}

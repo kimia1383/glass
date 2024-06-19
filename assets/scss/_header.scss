@@ -1,0 +1,68 @@
+li{
+    display: inline-block !important;
+}
+.top-header-right{
+    font-size: .8em;
+    li{
+        margin-left: .4em;
+    }
+}
+.top-header-left{
+    font-size: 1.2em;
+}
+header {
+     font-weight: 400;
+    a{
+    color: $text-color !important;
+    text-decoration: none;
+}}
+.top-header{
+    background-color: $gray-color;
+    padding: 7px 0;
+    height: 38px;
+   
+
+   ul{
+       text-align: center;
+   }
+}
+.navbar{
+    background-color: white !important;
+    position: relative;
+}
+.form-inline{
+    .btn{
+        background-color: #c0fdff;
+        color: white;
+    }
+}
+.row{
+    width: 100% !important;
+}
+.navbar{
+    .btn{
+        margin-right: 300px;
+    }
+}
+.nav-item{
+    position: relative;
+    &::after{
+        transition: all 0.2s ease-in-out;
+        position: absolute;
+        content: "";
+        height: 2px;
+        background-color: $main-color;
+        bottom: 0;
+        right: 50%;
+        left: 50%;
+    }
+    &:hover{
+        color: $main-color !important ;
+        cursor: pointer;
+        &::after{
+            right: 0;
+            left: 0;
+        }
+
+    }
+}

@@ -1,0 +1,19 @@
+@mixin font($font-family,$font-weight,$font-source) {
+    @font-face {
+        font-family: $font-family;
+        font-weight: $font-weight;
+        src: url($font-source+'.eot'); /* IE9 Compat Modes */
+        src: url($font-source+'.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url($font-source+'.woff2') format('woff2'), /* Super Modern Browsers */
+             url($font-source+'.woff') format('woff'), /* Pretty Modern Browsers */
+             url($font-source+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+             url($font-source+'.svg') format('svg'); /* Legacy iOS */
+      }
+}
+
+
+@include font('iransans', 400, '../font/IRANSans/IRANSansWeb(FaNum)_Light');
+@include font('iransans', 600, '../font/IRANSans/IRANSansWeb(FaNum)_UltraLight');
+@include font('iransans', 800, '../font/IRANSans/IRANSansWeb(FaNum)_Black');
+
+
